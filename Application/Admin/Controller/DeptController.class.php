@@ -97,7 +97,7 @@ class DeptController extends Controller{
          */
         if (IS_POST){
             //实例化模型
-            $model = M('Dept');
+            $model = D('Dept');
             /**
             //获取数据值(方法1)
             $post=I('post.');//想要接受全部数据可以用get.或者post.不知道具体变量名称,相当$_POST
@@ -106,9 +106,14 @@ class DeptController extends Controller{
             /**
              * 获取数据对象方法2--推荐
              */
-            $model->create();//可以传参可以不传,不传就使用对象的值
+            $data=$model->create();//可以传参可以不传,不传就使用对象的值
+            if(!$data){
+                //输出错误提示
+//                dump($model->getError());die;
+                $this->error($model->getError());exit;
+            }
+            dump($data);die;
             $result=$model->add();
-
             //判断是否添加成功
             if ($result){
                 //成功

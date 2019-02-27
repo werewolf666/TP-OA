@@ -1,0 +1,22 @@
+drop table if exists `sp_user`;
+create table `sp_user` (
+`id` int(11) not null auto_increment,
+`username` varchar(40) not null,
+`password` char(32) not null,
+`nickname` varchar(40) default null,
+`truename` varchar(40) default null,
+`dept_id` int(11) default null,
+`sex` varchar(10) not null,
+`birthday` date not null,
+`tel` varchar(11) not null,
+`email` varchar(50) not null,
+`remark` varchar(255) default null,
+`addtime` int(11) default null,
+`role_id` int(11) default null,
+primary key(`id`)
+)engine=myisam default charset=utf8;
+
+insert into `sp_user` values ('1','admin','12345','admin','管理员','1','男','2019-02-28','10000','test@qq.com','北京','1551288306','1');
+insert into `sp_user` values ('2','admin2','12345','admin2','管理员2','2','男','2019-02-28','10002','test2@qq.com','北京2','1551288306','2');
+insert into `sp_user` values ('3','admin3','12345','admin3','管理员3','3','男','2019-02-28','10003','test3@qq.com','北京3','1551288306','3');
+insert into `sp_user` values ('4','admin4','12345','admin4','管理员4','4','男','2019-02-28','10004','test4@qq.com','北京4','1551288306','4');

@@ -355,4 +355,103 @@ class TestController extends Controller{
     public function test33(){
         echo "替换I('post.')";
     }
+
+    //session
+    public function test34(){
+        //设置
+        session('name','韩梅梅');
+        session('name2','李梅');
+        session('name3','谢逊');
+        dump($_SESSION);
+
+        //读取
+        dump(session('name'));
+
+        //删除
+        dump(session('name',null));
+        dump($_SESSION);
+
+        //读取全部
+        dump(session());
+
+        //判断是否存在
+        dump(session('?name2'));
+
+        //删除全部
+        session(null);
+        dump($_SESSION);
+    }
+
+    //cookie
+    public function test35(){
+        //设置cookie
+        cookie('name','夏洛');
+        //设置包含有日期的cookie
+        cookie('name2','张三',3600);
+        //获取单个cookie
+        dump(cookie('name'));
+        //获取全部cookie
+        cookie();
+        //清空指定的cookie
+        cookie('name',null);
+        //清空所有cookie
+        cookie(null);//该方法有bug
+    }
+
+    //文件载入方式之函数库加载
+    public function test36(){
+        gbk2utf8();
+    }
+
+    //文件加载方式之动态加载
+    //配置在应用级别的配置文件：LOAD_EXT_FILE
+    public function test37(){
+        //__APP__/common/common/info/getInfo()
+        getInfo();
+    }
+
+    //文件载入方式之通过load()方法加载
+    public function test38(){
+        //load
+        load('@/hello');
+        sayHello('tom');
+    }
+
+    //常规验证码
+    public function test39(){
+        //配置
+        $cfg = array(
+            'fontSize'  =>  12,              // 验证码字体大小(px)
+            'useCurve'  =>  false,            // 是否画混淆曲线
+            'useNoise'  =>  false,            // 是否添加杂点
+            'imageH'    =>  0,               // 验证码图片高度
+            'imageW'    =>  0,               // 验证码图片宽度
+            'length'    =>  4,               // 验证码位数
+            'fontttf'   =>  '4.ttf',              // 验证码字体，不设置随机获取
+        );
+        //实例化验证码类
+        $verify=new \Think\Verify($cfg);
+        //输出验证码
+        $verify->entry();
+    }
+
+    //中文验证码
+    public function test40()
+    {
+        //配置
+        $cfg = array(
+            'useZh'     =>  true,           // 使用中文验证码
+            'fontSize' => 20,              // 验证码字体大小(px)
+            'useCurve' => false,            // 是否画混淆曲线
+            'useNoise' => false,            // 是否添加杂点
+            'imageH' => 0,               // 验证码图片高度
+            'imageW' => 0,               // 验证码图片宽度
+            'length' => 4,               // 验证码位数
+            'fontttf' => '',              // 验证码字体，不设置随机获取
+        );
+        //实例化验证码类
+        $verify = new \Think\Verify($cfg);
+        //输出验证码
+        $verify->entry();
+    }
 }

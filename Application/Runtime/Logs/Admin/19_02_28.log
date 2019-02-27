@@ -1,0 +1,15 @@
+[ 2019-02-28T00:52:23+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+ERR: 非法操作:login
+
+[ 2019-02-28T00:52:31+08:00 ] 127.0.0.1 /index.php/Admin/login
+ERR: 无法加载控制器:Login
+
+[ 2019-02-28T00:53:19+08:00 ] 127.0.0.1 /index.php/Admin/public
+ERR: 非法操作:index
+
+[ 2019-02-28T01:38:31+08:00 ] 127.0.0.1 /index.php/Admin/Public/checkLogin.html
+ERR: 非法操作:checkLogin
+
+[ 2019-02-28T01:54:40+08:00 ] 127.0.0.1 /index.php/Admin/Public/1
+ERR: 非法操作:1
+

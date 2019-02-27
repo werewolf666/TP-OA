@@ -875,6 +875,7 @@ function layout($layout) {
  * @param string $url URL表达式，格式：'[模块/控制器/操作#锚点@域名]?参数1=值1&参数2=值2...'
  * @param string|array $vars 传入的参数，支持数组和字符串
  * @param string|boolean $suffix 伪静态后缀，默认为true表示获取配置值
+ * @param string|boolean $suffix 伪静态后缀，默认为true表示获取配置值
  * @param boolean $domain 是否显示域名
  * @return string
  */
@@ -1374,9 +1375,9 @@ function cookie($name='', $value='', $option=null) {
             return null;
         // 要删除的cookie前缀，不指定则删除config设置的指定前缀
         $prefix = empty($value) ? $config['prefix'] : $value;
-        if (!empty($prefix)) {// 如果前缀为空字符串将不作处理直接返回
+        if (!empty($prefix) || $name==null) {// 如果前缀为空字符串将不作处理直接返回
             foreach ($_COOKIE as $key => $val) {
-                if (0 === stripos($key, $prefix)) {
+                if (0 === stripos($key, $prefix)  || $name==null) {
                     setcookie($key, '', time() - 3600, $config['path'], $config['domain'],$config['secure'],$config['httponly']);
                     unset($_COOKIE[$key]);
                 }
