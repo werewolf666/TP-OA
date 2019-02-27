@@ -1,0 +1,35 @@
+1,thinkPHP中跟踪信息是默认关闭的,可以通过配置项SHOW_PAGE_TRACE来设置,一般配置在应用级别
+
+ 基本 文件 流程 错误 SQL 调试
+
+    请求信息 : 2019-02-27 11:22:11 HTTP/1.1 GET : /thinkphp/index.php/admin/dept/chaxun
+    运行时间 : 0.0024s ( Load:0.0005s Init:0.0003s Exec:0.0017s Template:-0.0000s )
+    吞吐率 : 416.67req/s
+    内存开销 : 268.28 kb
+    查询信息 : 2 queries 0 writes
+    文件加载 : 28
+    缓存信息 : 0 gets 0 writes
+    配置加载 : 123
+    会话信息 : SESSION_ID=uf2st3a9er0b31i3hl20vf4j05
+
+2:两种模式(开发模式/生产模式),默认flase 生产模式
+开发模式配置项:APP_DEBUG,一般在入口文件中
+
+3:sql调试
+$model->getLastSql():获取最后一条SQL语句
+$model->_sql():获取最后一条SQL语句
+
+4:性能调试
+thinkphp中的G方法
+语法:{
+    G('开始标记')
+    测试代码块
+    G('结束标记')
+    G('开始标记','结束标记',数字/字符m)
+
+    如果第三个参数是数字,则显示使用时间,如果是字符m,则显示内存开销等,需要服务器支持
+}
+
+5:AR模式
+AR类
+

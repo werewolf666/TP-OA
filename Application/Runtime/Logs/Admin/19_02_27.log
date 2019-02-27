@@ -1,0 +1,1106 @@
+[ 2019-02-27T00:02:20+08:00 ] 127.0.0.1 /index.php/Admin/test/test10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-02-27T00:02:25+08:00 ] 127.0.0.1 /index.php/Admin/test/test11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2019-02-27T00:03:09+08:00 ] 127.0.0.1 /index.php/Admin/test/test11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2019-02-27T00:03:36+08:00 ] 127.0.0.1 /index.php/Admin/test/test11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2019-02-27T00:04:22+08:00 ] 127.0.0.1 /index.php/Admin/test/test11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2019-02-27T00:07:17+08:00 ] 127.0.0.1 /index.php/Admin/test/test12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+ERR: Think\Controller:asssign方法不存在！
+
+[ 2019-02-27T00:07:33+08:00 ] 127.0.0.1 /index.php/Admin/test/test12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2019-02-27T00:10:36+08:00 ] 127.0.0.1 /index.php/Admin/test/test12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2019-02-27T00:22:49+08:00 ] 127.0.0.1 /index.php/Admin/test/head
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2019-02-27T00:24:52+08:00 ] 127.0.0.1 /index.php/Admin/test/bodu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+ERR: 非法操作:bodu
+
+[ 2019-02-27T00:24:56+08:00 ] 127.0.0.1 /index.php/Admin/test/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2019-02-27T00:28:37+08:00 ] 127.0.0.1 /index.php/Admin/test/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2019-02-27T00:32:35+08:00 ] 127.0.0.1 /index.php/Admin/test/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2019-02-27T00:45:04+08:00 ] 127.0.0.1 /index.php/Admin/test/test13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2019-02-27T00:46:18+08:00 ] 127.0.0.1 /index.php/Admin/test/test13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2019-02-27T00:52:20+08:00 ] 127.0.0.1 /index.php/Admin/test/test13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2019-02-27T00:53:11+08:00 ] 127.0.0.1 /index.php/Admin/test/test13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2019-02-27T00:53:53+08:00 ] 127.0.0.1 /index.php/Admin/test/test13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2019-02-27T01:04:59+08:00 ] 127.0.0.1 /index.php/Admin/test/test14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant 条件表达式 - assumed '条件表达式' C:\PHPWAMP_IN3\wwwroot\thinkphp\Application\Runtime\Cache\Admin\fac6d04ed6eca36a3d9d359a03138a73.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2019-02-27T01:09:35+08:00 ] 127.0.0.1 /index.php/Admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+
+[ 2019-02-27T01:09:52+08:00 ] 127.0.0.1 /index.php/Admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+
+[ 2019-02-27T01:10:15+08:00 ] 127.0.0.1 /index.php/Admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+
+[ 2019-02-27T01:10:16+08:00 ] 127.0.0.1 /index.php/Admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+
+[ 2019-02-27T01:11:05+08:00 ] 127.0.0.1 /index.php/Admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2019-02-27T01:39:42+08:00 ] 127.0.0.1 /index.php/Admin/dept
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+ERR: 非法操作:index
+
+[ 2019-02-27T01:39:51+08:00 ] 127.0.0.1 /index.php/Admin/dept/shilihua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2019-02-27T01:40:17+08:00 ] 127.0.0.1 /index.php/Admin/dept/shilihua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2019-02-27T01:44:28+08:00 ] 127.0.0.1 /index.php/Admin/dept/shilihua2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2019-02-27T01:44:55+08:00 ] 127.0.0.1 /index.php/Admin/dept/shilihua2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2019-02-27T01:49:09+08:00 ] 127.0.0.1 /index.php/Admin/dept/shilihua2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2019-02-27T01:49:35+08:00 ] 127.0.0.1 /index.php/Admin/dept/shilihua2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2019-02-27T01:56:00+08:00 ] 127.0.0.1 /index.php/Admin/dept/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0141s ]
+SQL: INSERT INTO `sp_dept` (`name`,`pid`,`sort`,`remark`) VALUES ('人事部','0','1','这是人事部门') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2019-02-27T01:57:07+08:00 ] 127.0.0.1 /index.php/Admin/dept/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0131s ]
+SQL: INSERT INTO `sp_dept` (`name`,`pid`,`sort`,`remark`) VALUES ('财务部','0','2','这是财务部门') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2019-02-27T02:02:56+08:00 ] 127.0.0.1 /index.php/Admin/dept/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0125s ]
+SQL: INSERT INTO `sp_dept` (`name`,`pid`,`sort`,`remark`) VALUES ('公关部','0','3','这是公关部门'),('总裁办','0','4','这是总裁办部门'),('技术部','0','5','这是技术部门') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2019-02-27T02:10:51+08:00 ] 127.0.0.1 /index.php/Admin/dept/xiugai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0122s ]
+SQL: UPDATE `sp_dept` SET `sort`='22' WHERE `id` = 2 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2019-02-27T02:11:59+08:00 ] 127.0.0.1 /index.php/Admin/dept/xiugai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2019-02-27T02:12:40+08:00 ] 127.0.0.1 /index.php/Admin/dept/xiugai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0134s ]
+SQL: UPDATE `sp_dept` SET `sort`='22',`remark`='负责发工资' WHERE `id` = 2 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2019-02-27T02:16:59+08:00 ] 127.0.0.1 /index.php/Admin/dept/chaxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `sp_dept`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2019-02-27T02:17:36+08:00 ] 127.0.0.1 /index.php/Admin/dept/chaxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_dept` WHERE `id` = 3  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009162s ]
+
+[ 2019-02-27T02:18:28+08:00 ] 127.0.0.1 /index.php/Admin/dept/chaxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sp_dept` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2019-02-27T02:19:00+08:00 ] 127.0.0.1 /index.php/Admin/dept/chaxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `sp_dept` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2019-02-27T02:19:35+08:00 ] 127.0.0.1 /index.php/Admin/dept/chaxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_dept` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2019-02-27T02:19:48+08:00 ] 127.0.0.1 /index.php/Admin/dept/chaxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `sp_dept` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005107s ]
+
+[ 2019-02-27T02:24:23+08:00 ] 127.0.0.1 /index.php/Admin/dept/shanchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0125s ]
+SQL: DELETE FROM `sp_dept` WHERE `id` = 5 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2019-02-27T02:25:43+08:00 ] 127.0.0.1 /index.php/Admin/dept/shanchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `sp_dept` [ RunTime:0.0117s ]
+SQL: DELETE FROM `sp_dept` WHERE `id` IN ('3','4') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2019-02-27T10:23:11+08:00 ] ::1 /html/thinkphp/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-02-27T10:23:23+08:00 ] ::1 /html/thinkphp/admin/test/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2019-02-27T10:23:30+08:00 ] ::1 /html/thinkphp/admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2019-02-27T10:23:35+08:00 ] ::1 /html/thinkphp/admin/test/test154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+ERR: 非法操作:test154
+
+[ 2019-02-27T10:24:03+08:00 ] ::1 /html/thinkphp/admin/test/test15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-02-27T10:59:48+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-02-27T11:00:05+08:00 ] 127.0.0.1 /index.php/admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2019-02-27T11:03:29+08:00 ] 127.0.0.1 /index.php/admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2019-02-27T11:19:36+08:00 ] 127.0.0.1 /thinkphp/index.php/admin/test/chaxun
+ERR: 非法操作:chaxun
+
+[ 2019-02-27T11:20:05+08:00 ] 127.0.0.1 /thinkphp/index.php/admin/dept/chaxun
+ERR: SQLSTATE[42000] [1049] Unknown database 'db_oa'
+
+[ 2019-02-27T14:30:12+08:00 ] 127.0.0.1 /index.php/admin/test/test24
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` ORDER BY id,desc 
+
+[ 2019-02-27T15:19:24+08:00 ] 127.0.0.1 /index.php/admin/test/test230
+ERR: 非法操作:test230
+
+[ 2019-02-27T15:43:21+08:00 ] 127.0.0.1 /index.php/admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2019-02-27T15:43:38+08:00 ] 127.0.0.1 /index.php/admin/index/home
+ERR: 无法加载控制器:Index
+
+[ 2019-02-27T15:44:41+08:00 ] 127.0.0.1 /index.php/admin/index/css/base.css
+ERR: 非法操作:css
+
+[ 2019-02-27T15:44:41+08:00 ] 127.0.0.1 /index.php/admin/index/css/home.css
+ERR: 非法操作:css
+
+[ 2019-02-27T15:44:41+08:00 ] 127.0.0.1 /index.php/admin/index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:44:41+08:00 ] 127.0.0.1 /index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:44:41+08:00 ] 127.0.0.1 /index.php/admin/index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/css/base.css
+ERR: 非法操作:css
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/css/index.css
+ERR: 非法操作:css
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/css/jquery.dialog.css
+ERR: 非法操作:css
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/index.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/core.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/jquery.dialog.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/core.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/jquery.dialog.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:47:31+08:00 ] 127.0.0.1 /index.php/admin/index/js/index.js
+ERR: 非法操作:js
+
+[ 2019-02-27T15:51:07+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:51:53+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:53:29+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:56:16+08:00 ] 127.0.0.1 /index.php/admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2019-02-27T15:56:17+08:00 ] 127.0.0.1 /index.php/admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2019-02-27T15:57:01+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:57:02+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:57:03+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:57:03+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T15:57:07+08:00 ] 127.0.0.1 /index.php/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2019-02-27T16:00:09+08:00 ] 127.0.0.1 /index.php/admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2019-02-27T16:00:22+08:00 ] 127.0.0.1 /index.php/admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2019-02-27T16:00:23+08:00 ] 127.0.0.1 /index.php/admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2019-02-27T16:03:02+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:07+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:08+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:09+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:10+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:10+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:11+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:11+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:12+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:12+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:13+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:13+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:14+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:14+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:15+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:15+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:15+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html.html
+ERR: 非法操作:showList.html
+
+[ 2019-02-27T16:05:10+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:05:11+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:06:23+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html.html
+ERR: 非法操作:add.html
+
+[ 2019-02-27T16:08:34+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:35:32+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: Think\Model:assign方法不存在！
+
+[ 2019-02-27T16:35:33+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: Think\Model:assign方法不存在！
+
+[ 2019-02-27T16:35:34+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: Think\Model:assign方法不存在！
+
+[ 2019-02-27T16:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: Think\Model:assign方法不存在！
+
+[ 2019-02-27T16:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: Think\Model:assign方法不存在！
+
+[ 2019-02-27T16:35:37+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2019-02-27T16:35:38+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: Think\Model:assign方法不存在！
+
+[ 2019-02-27T16:50:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/css/base.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/css/info-mgt.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/css/WdatePicker.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:52:53+08:00 ] 127.0.0.1 /index.php/admin/index/js/jquery.pagination.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-mgt.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/WdatePicker.css
+ERR: 非法操作:css
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.pagination.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T16:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.pagination.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-mgt.css
+ERR: 非法操作:css
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/WdatePicker.css
+ERR: 非法操作:css
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.pagination.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2019-02-27T17:10:47+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.pagination.js
+ERR: 非法操作:js
+
