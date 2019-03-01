@@ -46,3 +46,9 @@ ERR: 非法操作:hello
 [ 2019-03-02T02:33:05+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showContent/id/2
 ERR: 非法操作:showContent
 
+[ 2019-03-02T03:23:35+08:00 ] 127.0.0.1 /index.php/Admin/test/
+ERR: 非法操作:index
+
+[ 2019-03-02T03:23:44+08:00 ] 127.0.0.1 /index.php/Admin/test/43
+ERR: 非法操作:43
+

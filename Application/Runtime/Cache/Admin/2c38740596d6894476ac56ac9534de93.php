@@ -94,7 +94,7 @@ showRemind('input[type=text], textarea','placeholder');
                 title: title,
                 closeBtn: true, //显示关闭按钮
                 shade: [0],
-                area: ['450px', '90%'],
+                area: ['800px', '90%'],
                 // time: 2000, //2秒后自动关闭
                 anim: 2,
                 content: '/index.php/Admin/Doc/showContent/id/'+id, //iframe的url，no代表不显示滚动条

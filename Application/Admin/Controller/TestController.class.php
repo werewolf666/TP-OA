@@ -455,7 +455,6 @@ class TestController extends Controller{
         $verify->entry();
     }
 
-<<<<<<< HEAD
     //获取id
     public function test45(){
         //获取ip
@@ -464,14 +463,15 @@ class TestController extends Controller{
     }
 
     //IP地址对应的物理地址
-    public function test46(){
+    public function test46()
+    {
         //实例化相关类
-        $Ip=new \Org\Net\IpLocation('qqwry.dat');
-        $ss=I('get.ip');
+        $Ip = new \Org\Net\IpLocation('qqwry.dat');
+        $ss = I('get.ip');
         //查询
-        $data=$Ip->getlocation($ss);
+        $data = $Ip->getlocation($ss);
         dump($data);
-=======
+    }
     //连表查询 方法1 执行原生sql语句
     public function test41(){
         //实例化模型
@@ -512,6 +512,5 @@ class TestController extends Controller{
             ->join('left join sp_dept as dept on user.pid=dept.id')
             ->select();
         dump($result);
->>>>>>> 435d24758809cf0847efa6793b190d76b2097c71
     }
 }
