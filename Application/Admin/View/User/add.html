@@ -22,7 +22,7 @@
 
 <body>
 <div class="title"><h2>信息登记</h2></div>
-<form action="__CONTROLLER__/addOk" method="post">
+<form action="__CONTROLLER__/add" method="post">
 <div class="main">
 	<p class="short-input ue-clear">
     	<label>用户名：</label>
@@ -34,7 +34,7 @@
     </p>
     <p class="short-input ue-clear">
     	<label>姓名：</label>
-        <input name="truename" type="text" placeholder="姓名" />
+        <input name="truename" type="text" placeholder="真实姓名" />
     </p>
 	<p class="short-input ue-clear">
     	<label>昵称：</label>
@@ -44,6 +44,9 @@
     	<label>所属部门：</label>
         <select name="dept_id">
         	<option value="-1">请选择</option>
+            <volist name="data" id="vol">
+                <option value="{$vol.id}">{$vol.name}</option>
+            </volist>
         </select>
     </div>
 	<p class="short-input ue-clear">
