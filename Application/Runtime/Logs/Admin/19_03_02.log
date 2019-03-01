@@ -1,0 +1,48 @@
+[ 2019-03-02T01:02:20+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: Think\Model:savaData方法不存在！
+
+[ 2019-03-02T01:03:37+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: Think\Model:savaData方法不存在！
+
+[ 2019-03-02T01:03:54+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: Think\Model:savaData方法不存在！
+
+[ 2019-03-02T01:53:44+08:00 ] 127.0.0.1 /index.php/Admin/Doc/download/id/4
+ERR: 非法操作:download
+
+[ 2019-03-02T02:27:30+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:27:35+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:27:39+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:28:33+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:28:38+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:29:11+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:30:00+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:30:44+08:00 ] 127.0.0.1 /index.php/Admin/Doc/test/guodu.html
+ERR: 非法操作:test
+
+[ 2019-03-02T02:32:03+08:00 ] 127.0.0.1 /index.php/Admin/Doc/hello
+ERR: 非法操作:hello
+
+[ 2019-03-02T02:32:53+08:00 ] 127.0.0.1 /index.php/Admin/Doc/hello
+ERR: 非法操作:hello
+
+[ 2019-03-02T02:33:05+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showContent/id/2
+ERR: 非法操作:showContent
+

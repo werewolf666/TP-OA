@@ -454,4 +454,21 @@ class TestController extends Controller{
         //输出验证码
         $verify->entry();
     }
+
+    //获取id
+    public function test45(){
+        //获取ip
+        echo get_client_ip(),'</br>';//默认获取IP形式：127.0.0.1
+        echo get_client_ip(1),'</br>';//默认获取数字形式：2130706433
+    }
+
+    //IP地址对应的物理地址
+    public function test46(){
+        //实例化相关类
+        $Ip=new \Org\Net\IpLocation('qqwry.dat');
+        $ss=I('get.ip');
+        //查询
+        $data=$Ip->getlocation($ss);
+        dump($data);
+    }
 }

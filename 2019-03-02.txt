@@ -1,0 +1,41 @@
+日期 2019-03-02
+
+主要更新内容简介
+
+1：公文管理
+2：uedit(富文本编辑器)的使用
+3:上传文件类Upload的使用
+    uploadOne();
+    upload();
+4：下载文件的方式
+        //下载download方法
+        public function download(){
+            //接受id
+            $id=I('get.id');
+            $data=M('Doc')->find($id);
+            //下载代码
+            $file = WORKING_PATH . $data['filepath'];
+            //输出文件
+            header("Content-type: application/octet-stream");
+            header('Content-Disposition: attachment; filename="' . basename($file) . '"');
+            header("Content-Length: ". filesize($file));
+            //输出缓冲区
+            readfile($file);
+        }
+
+
+5：layer插件使用
+    5.1 利用layer查看内容
+         //查看文档showContent方法 供layer使用
+                public function showContent(){
+                    //接受id
+                    $id=I('get.id');
+                    $data=M('Doc')->find($id);
+                    //输出内容,还原被转义的内容
+                    $data=htmlspecialchars_decode($data['content']);
+                    echo $data;
+                }
+6:thinkphp中封装的获取IP方法
+    6.1 系统函数库
+
+7:纯真网站
