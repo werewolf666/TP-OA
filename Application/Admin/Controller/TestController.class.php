@@ -454,4 +454,46 @@ class TestController extends Controller{
         //输出验证码
         $verify->entry();
     }
+
+    //连表查询 方法1 执行原生sql语句
+    public function test41(){
+        //实例化模型
+        $model=M();//执行原声sql的时候不用指定表
+        $sql="select user.*,dept.name as deptname from sp_user as user,sp_dept as dept where user.dept_id=dept.id";
+        $result=$model->query($sql);
+        dump($result);
+    }
+
+    //连表查询 方法2 使用thinkphp中的table('表明1 [as 别名1],表名2[as 别名2]....');
+    public function test42(){
+        //实例化模型
+        $model=M();//执行原声sql的时候不用指定表
+        $result=$model->field('user.*,dept.name as deptname')
+            ->table('sp_user as user,sp_dept as dept')
+            ->where('user.dept_id=dept.id')
+            ->select();
+        dump($result);
+    }
+
+    //连表查询方法3,使用原生的join
+    public function test43(){
+        //实例化模型
+        $model=M();//执行原声sql的时候不用指定表
+        $sql="select user.*,dept.name as deptname from sp_user as user left join sp_dept as dept on user.dept_id=dept.id";
+        $result=$model->query($sql);
+        dump($result);
+    }
+
+    //连表查询方法4,使用thinkphp中的join('[inner/left/right/full] join] 表名2[as 别名2 on 别名表1.字段1=别名表2.字段2')
+    //主要用于自连查询 select user.*,dept.name as deptname from sp_user as user left join sp_dept as dept on user.pid=dept.id
+    public function test44(){
+        //实例化模型
+        $model=M('Dept');//执行原声sql的时候不用指定表
+//        dump($model);die();
+        $result=$model->field('user.*,dept.name as deptname')
+            ->alias('user')
+            ->join('left join sp_dept as dept on user.pid=dept.id')
+            ->select();
+        dump($result);
+    }
 }

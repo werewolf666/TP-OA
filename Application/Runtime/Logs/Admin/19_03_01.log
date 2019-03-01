@@ -1,0 +1,79 @@
+[ 2019-03-01T11:00:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Dept/showList.html
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php
+
+[ 2019-03-01T11:03:16+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Dept/showList.html
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php
+
+[ 2019-03-01T11:03:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Dept/showList.html
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php
+
+[ 2019-03-01T11:03:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Dept/showList.html
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php
+
+[ 2019-03-01T11:07:42+08:00 ] 127.0.0.1 /thinkphp/index.php/admin/index/login
+ERR: 非法操作:login
+
+[ 2019-03-01T13:08:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/User/addOk
+ERR: 非法操作:addOk
+
+[ 2019-03-01T15:38:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/tes41
+ERR: 非法操作:tes41
+
+[ 2019-03-01T16:12:05+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT user.*,dept.name as deptname FROM sp_ user left join sp_dept as dept on user.dept_id=dept.id  
+
+[ 2019-03-01T16:12:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1054:Unknown column 'user.dept_id' in 'on clause'
+ [ SQL语句 ] : SELECT user.*,dept.name as deptname FROM sp_dept user left join sp_dept as dept on user.dept_id=dept.id  
+
+[ 2019-03-01T16:16:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_dept,_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_dept,_user`
+
+[ 2019-03-01T16:17:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_dept,_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_dept,_user`
+
+[ 2019-03-01T16:17:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_dept,_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_dept,_user`
+
+[ 2019-03-01T16:18:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_`
+
+[ 2019-03-01T16:18:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_`
+
+[ 2019-03-01T16:18:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_`
+
+[ 2019-03-01T16:18:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_`
+
+[ 2019-03-01T16:18:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_`
+
+[ 2019-03-01T16:18:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_`
+
+[ 2019-03-01T16:19:37+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/test/test44
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT user.*,dept.name as deptname FROM sp_ user left join sp_dept as dept on user.pid=dept.id  
+
+[ 2019-03-01T17:14:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/User/charts.html
+ERR: 模板不存在:./Application/Admin/View/__PUBLIC__/Admin/index.htm.html
+
+[ 2019-03-01T17:15:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/User/charts.html
+ERR: 模板不存在:./Application/Admin/View/__PUBLIC__/Admin/index.html
+
+[ 2019-03-01T17:40:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/User/charts.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by deptname' at line 1
+ [ SQL语句 ] : SELECT dept.name as deptname,count(*) as count FROM sp_user as user,sp_dept as dept WHERE ( user.dept_id=dept.id ) GROUP BY group by deptname 
+

@@ -26,7 +26,7 @@
 	<a href="javascript:;" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
-    <a href="javascript:;" class="count">统计</a>
+    <a href="{:U('charts')}" class="count">统计</a>
     <a href="javascript:;" class="check">审核</a>
 </div>
 <div class="table-box">
@@ -46,26 +46,28 @@
             </tr>
         </thead>
         <tbody>
-        	<tr>
-            	<td class="id">1</td>
-                <td class="name">管理员</td>
-				<td class="nickname">Admin</td>
-                <td class="dept_id">管理部</td>
-                <td class="sex">男</td>
-				<td class="birthday">2016-06-01</td>
-				<td class="tel">13800138000</td>
-				<td class="email">admin@itcast.cn</td>
-                <td class="addtime">2016-06-01 23:55:35</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
+            <volist name="data" id="vol">
+                <tr>
+                    <td class="id">{$vol.id}</td>
+                    <td class="name">{$vol.truename}</td>
+                    <td class="nickname">{$vol.nickname}</td>
+                    <td class="dept_id">{$vol.dept_id}</td>
+                    <td class="sex">{$vol.sex}</td>
+                    <td class="birthday">{$vol.birthday}</td>
+                    <td class="tel">{$vol.tel}</td>
+                    <td class="email">{$vol.email}</td>
+                    <td class="addtime">{$vol.addtime}</td>
+                    <td class="operate"><a href="javascript:;">查看</a></td>
+                </tr>
+            </volist>
         </tbody>
     </table>
 </div>
 <div class="pagination ue-clear">
 	<div class="pagin-list">
-		{$page}
+		{$show}
 	</div>
-	<div class="pxofy">显示第 1 条到 10 条记录，总共{$count}条记录</div>
+	<div class="pxofy">/div>
 </div>
 </body>
 <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>

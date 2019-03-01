@@ -1,0 +1,65 @@
+1,职能部门的功能添加
+2,管理人员的分页显示,利用thinkphp中的Page类实现
+3,连表查询(重点)
+    3.1 在原生的sql语句中一般使用join和table来进行链表查询,
+        语法:
+            table:
+                select 别名表1.字段1,别名表2.字段2 from 表1 as 别名1,表2 as 别名2 where 别名表1.字段1=别名表2.字段2
+                主表:sp_user 别名 user
+                从表:sp_dept 别名 dept
+                sql:select user.*,dept.name as deptname from sp_user as user,sp_dept as dept where user.dept_id=dept.id
+                    public function test41(){
+                        //实例化模型
+                        $model=M();//执行原声sql的时候不用指定表
+                        $sql="select user.*,dept.name as deptname from sp_user as user,sp_dept as dept where user.dept_id=dept.id";
+                        $result=$model->query($sql);
+                        dump($result);
+
+            join:
+                select 别名表1.字段1,别名表2.字段2 from 表1 as 别名1 [inner/left/right/full] join 表2 as 别名2 on 别名表1.字段1=别名表2.字段2
+                主表:sp_user 别名 user
+                从表:sp_dept 别名 dept
+                sql:select user.*,dept.name as deptname from sp_user as user inner join sp_dept as dept on user.dept_id=dept.id
+                //连表查询方法3,使用原生的join
+                    public function test43(){
+                        //实例化模型
+                        $model=M();//执行原声sql的时候不用指定表
+                        $sql="select user.*,dept.name as deptname from sp_user as user left join sp_dept as dept on user.dept_id=dept.id";
+                        $result=$model->query($sql);
+                        dump($result);
+
+
+    3.2 在thinkphp中可以使用table方法和join方法
+        语法:
+            table:
+                //连表查询 方法2 使用thinkphp中的table('表明1 [as 别名1],表名2[as 别名2]....');
+                public function test42(){
+                    //实例化模型
+                    $model=M();//执行原声sql的时候不用指定表
+                    $result=$model->field('user.*,dept.name as deptname')
+                        ->table('sp_user as user,sp_dept as dept')
+                        ->where('user.dept_id=dept.id')
+                        ->select();
+                    dump($result);
+                }
+
+                //连表查询方法4,使用thinkphp中的join('[inner/left/right/full] join] 表名2[as 别名2 on 别名表1.字段1=别名表2.字段2')
+                //主要用于自连查询 select user.*,dept.name as deptname from sp_user as user left join sp_dept as dept on user.pid=dept.id
+                public function test44(){
+                    //实例化模型
+                    $model=M('Dept');//执行原声sql的时候不用指定表
+                    //dump($model);die();
+                    $result=$model->field('user.*,dept.name as deptname')
+                        ->alias('user')
+                        ->join('left join sp_dept as dept on user.pid=dept.id')
+                        ->select();
+                    dump($result);
+                }
+
+4,highcharts插件
+    4.1 使用/var/www/html/thinkphp/Highcharts-7.0.3/examples/column-rotated-labels/index.htm 实现用户统计
+    4.2 进行链表查询
+        主表sp_user
+        从表sp_dept
+        条件 dept_id=id
+        sql="select dept.name as deptname,count(*) as count from sp_user as user,sp_dept as dept where user.dept_id=dept.id group by deptname"
