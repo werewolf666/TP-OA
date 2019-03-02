@@ -1,3 +1,4 @@
+drop table IF NOT EXISTS `sp_doc`
 CREATE TABLE IF NOT EXISTS `sp_doc`(
   `id` int(11) not null auto_increment,
   `title` varchar(50) not null comment '公文标题',

@@ -1,0 +1,26 @@
+1:实现对公文的编辑
+2：实现对知识的管理
+    2.1 创建数据表 sp_knowledge
+    2.2 功能完善
+
+3 邮件的管理
+    3.1 站内信一般包含 邮件发送-接受邮件
+    3.2 创建Email数据表sp_email
+    3.3 功能完善
+
+4 拓展 【空操作】
+    4.1 找不到正确的url 的时候便会出现空操作，主要用来定制错误页面
+    4.2 空操作方法_empty();空操着就控制器_
+        namespace Admin\Controller;
+        use Think\Controller;
+        class EmptyController extends Controller{
+            //定义空方法
+            public function _empty(){
+                echo 'cuowu';
+                $this->display('Empty/error');
+            }
+        }
+
+5 Jquery中的Ajax方法的使用
+
+

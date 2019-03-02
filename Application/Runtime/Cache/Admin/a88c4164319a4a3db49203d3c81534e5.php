@@ -21,37 +21,37 @@
 </head>
 
 <body>
-<div class="title"><h2>公文管理</h2></div>
+<div class="title"><h2>知识管理</h2></div>
 <div class="table-operate ue-clear">
-	<a href="/index.php/Admin/Doc/add" class="add">添加</a>
+	<a href="/index.php/Admin/Knowledge/add" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
-    <a href="javascript:;" class="count">统计</a>
     <a href="javascript:;" class="check">审核</a>
 </div>
 <div class="table-box">
 	<table>
     	<thead>
-        <tr>
-            <th class="id">序号</th>
-            <th class="name">标题</th>
-            <th class="file">附件</th>
-            <th class="content">作者</th>
-            <th class="addtime">添加时间</th>
-            <th class="operate">操作</th>
-        </tr>
+        	<tr>
+            	<th class="id">序号</th>
+                <th class="name">标题</th>
+				<th class="file">缩略图</th>
+                <th class="content">内容</th>
+                <th class="content">作者</th>
+				<th class="addtime">添加时间</th>
+                <th class="operate">操作</th>
+            </tr>
         </thead>
         <tbody>
-        <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
-                <th class="id"><?php echo ($vol["id"]); ?></th>
-                <th class="name"><?php echo ($vol["title"]); ?></th>
-                <th class="file"><?php echo ($vol["filename"]); if(!empty($vol["filename"])): ?>【<a href="/index.php/Admin/Doc/download/id/<?php echo ($vol["id"]); ?>">下载</a>】<?php endif; ?></th>
-                <th class="content"><?php echo ($vol["author"]); ?></th>
-                <th class="addtime"><?php echo (date('Y-m-d H:m:s',$vol["addtime"])); ?></th>
-                <th class="operate">
-                    <a href="javascript:;" class="show" data_id="<?php echo ($vol["id"]); ?>" data_title="<?php echo ($vol["title"]); ?>">查看 </a>|
-                    <a href="/index.php/Admin/Doc/edit/id/<?php echo ($vol["id"]); ?>" class="edit"> 编辑</a>
-                </th>
+        	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+            	<td class="id"><?php echo ($vo["id"]); ?></td>
+                <td class="name"><?php echo (substr($vo["title"],0,9)); ?>...</td>
+				<td class="file"><img src="<?php echo ($vo["thumb"]); ?>"/><?php if(!empty($vo["picture"])): ?>【<a href='/index.php/Admin/Knowledge/download/id/<?php echo ($vo["id"]); ?>'>下载</a>】<?php endif; ?></td>
+                <td class="content"><?php echo (substr(htmlspecialchars_decode($vo["content"]),0,30)); ?>...</td>
+                <td class="content"><?php echo ($vo["author"]); ?></td>
+                <td class="addtime"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
+                <td class="operate">
+                    <a href="javascript:;" class="show" data_id="<?php echo ($vo["id"]); ?>" data_title="<?php echo ($vo["title"]); ?>">查看 </a>|
+                </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>
@@ -83,24 +83,24 @@ $("tbody").find("tr:odd").css("backgroundColor","#eff6fa");
 showRemind('input[type=text], textarea','placeholder');
 
 //jQuery代码
-    $(function () {
-        //给查看按钮绑定事件
-        $('.show').on('click', function () {
-            //获取id
-            var id = $(this).attr('data_id');
-            var title = $(this).attr('data_title');
-            //iframe窗
-            layer.open({
-                type: 2,
-                title: title,
-                closeBtn: true, //显示关闭按钮
-                shade: [0],
-                area: ['800px', '90%'],
-                // time: 2000, //2秒后自动关闭
-                anim: 2,
-                content: '/index.php/Admin/Doc/showContent/id/'+id, //iframe的url，no代表不显示滚动条
-            });
+$(function () {
+    //给查看按钮绑定事件
+    $('.show').on('click', function () {
+        //获取id
+        var id = $(this).attr('data_id');
+        var title = $(this).attr('data_title');
+        //iframe窗
+        layer.open({
+            type: 2,
+            title: title,
+            closeBtn: true, //显示关闭按钮
+            shade: [0],
+            area: ['800px', '90%'],
+            // time: 2000, //2秒后自动关闭
+            anim: 2,
+            content: '/index.php/Admin/Knowledge/showContent/id/'+id, //iframe的url，no代表不显示滚动条
         });
     });
+});
 </script>
 </html>

@@ -1,5 +1,6 @@
 <?php
 namespace Admin\Controller;
+use Admin\Model\DocModel;
 use \Think\Controller;
 class DocController extends Controller{
     //showList
@@ -54,6 +55,37 @@ class DocController extends Controller{
         //输出内容,还原被转义的内容
         $data=htmlspecialchars_decode($data['content']);
         echo $data;
+    }
+
+    //编辑公文方法
+    public function edit(){
+        if(IS_POST){
+            $model=new DocModel();
+            $data = $model->create();//可以传参可以不传,不传就使用对象的值
+            if (!$data){
+                //输出错误提示
+                //dump($model->getError());die;
+                $this->error($model->getError());exit;}
+            //实例化映射记录
+            //获取上传文件
+            $file=$_FILES['file'];
+            $result=$model->updateData($data,$file);
+            if ($result!==false){
+                $this->success('修改成功',U('showList'),1);exit;
+            }else {
+                $this->error('修改失败', '',1);exit;
+            }
+        }else{
+            $model=M('Doc');
+            //接受id
+            $id=I('get.id');
+            $data=$model->find($id);
+//        //输出内容,还原被转义的内容
+//        $data=htmlspecialchars_decode($data['content']);
+            $this->assign('data',$data);
+            $this->display();
+        }
+
     }
 
 }

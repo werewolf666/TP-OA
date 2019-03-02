@@ -1,0 +1,69 @@
+[ 2019-03-03T00:24:45+08:00 ] 127.0.0.1 /index.php/Admin/Doc/edit/id/5
+ERR: Think\Model:updateData方法不存在！
+
+[ 2019-03-03T00:57:56+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 无法加载控制器:Knowledge
+
+[ 2019-03-03T00:57:58+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 无法加载控制器:Knowledge
+
+[ 2019-03-03T02:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/download/id/2
+ERR: 非法操作:download
+
+[ 2019-03-03T02:09:23+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showContent/id/
+ERR: 非法操作:showContent
+
+[ 2019-03-03T02:31:18+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 无法加载控制器:Email
+
+[ 2019-03-03T02:31:19+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 无法加载控制器:Email
+
+[ 2019-03-03T02:31:19+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 无法加载控制器:Email
+
+[ 2019-03-03T02:34:51+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2019-03-03T02:34:55+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2019-03-03T02:34:57+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2019-03-03T02:39:17+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2019-03-03T02:40:39+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2019-03-03T02:40:42+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2019-03-03T02:43:14+08:00 ] 127.0.0.1 /index.php/Admin/public/
+ERR: 非法操作:index
+
+[ 2019-03-03T02:43:56+08:00 ] 127.0.0.1 /index.php/Admin/email/
+ERR: 非法操作:index
+
+[ 2019-03-03T03:09:08+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2019-03-03T03:11:35+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2019-03-03T03:11:45+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2019-03-03T03:28:35+08:00 ] 127.0.0.1 /index.php/Admin/Email/download/id/1
+ERR: 非法操作:download
+
+[ 2019-03-03T03:38:42+08:00 ] 127.0.0.1 /index.php/Admin/Email/showContent/id/
+ERR: 非法操作:showContent
+
+[ 2019-03-03T03:52:14+08:00 ] 127.0.0.1 /index.php/Admin/cdcs
+ERR: 模板不存在:./Application/Admin/View/Cdcs/error.html
+
+[ 2019-03-03T03:54:57+08:00 ] 127.0.0.1 /index.php/Admin/cdcs
+ERR: 模板不存在:./Application/Admin/View/Cdcs/error.html
+

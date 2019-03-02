@@ -21,40 +21,43 @@
 </head>
 
 <body>
-<div class="title"><h2>公文管理</h2></div>
+<div class="title"><h2>邮件管理</h2></div>
 <div class="table-operate ue-clear">
 	<a href="__CONTROLLER__/add" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
-    <a href="javascript:;" class="count">统计</a>
     <a href="javascript:;" class="check">审核</a>
 </div>
 <div class="table-box">
 	<table>
     	<thead>
-        <tr>
-            <th class="id">序号</th>
-            <th class="name">标题</th>
-            <th class="file">附件</th>
-            <th class="content">作者</th>
-            <th class="addtime">添加时间</th>
-            <th class="operate">操作</th>
-        </tr>
+        	<tr>
+            	<th class="id">序号</th>
+                <th class="name">收件人</th>
+				<th class="name">标题</th>
+                <th class="file">附件</th>
+                <th class="content">内容</th>
+				<th class="addtime">发送时间</th>
+                <th class="status">状态</th>
+                <th class="operate">操作</th>
+            </tr>
         </thead>
         <tbody>
-        <volist name="data" id="vol">
-            <tr>
-                <th class="id">{$vol.id}</th>
-                <th class="name">{$vol.title}</th>
-                <th class="file">{$vol.filename}<notempty name="vol.filename">【<a href="__CONTROLLER__/download/id/{$vol.id}">下载</a>】</notempty></th>
-                <th class="content">{$vol.author}</th>
-                <th class="addtime">{$vol.addtime|date='Y-m-d H:m:s',###}</th>
-                <th class="operate">
-                    <a href="javascript:;" class="show" data_id="{$vol.id}" data_title="{$vol.title}">查看 </a>|
-                    <a href="__CONTROLLER__/edit/id/{$vol.id}" class="edit"> 编辑</a>
-                </th>
+        	<volist name='data' id='vo'>
+        	<tr>
+            	<td class="id">{$vo.id}</td>
+                <td class="name">{$vo.truename}</td>
+                <td class="name">{$vo.title}</td>
+				<td class="file">{$vo.filename}<if condition='$vo.hasfile == 1'>【<a href="__CONTROLLER__/download/id/{$vo.id}">下载</a>】</if></td>
+                <td class="content">{$vo.content|substr=###,0,10}...</td>
+                <td class="addtime">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
+                <td class="status"><if condition='$vo.isread == 0'><span style="color: red;">未读</span><else/><span style="color:grey;">已读</span></if></td>
+                <td class="operate">
+                    <a href="javascript:;" class="show" data_id="{$vo.id}" data_title="{$vo.title}">查看 </a>|
+                	<a href ='javascript:;'>删除</a> 
+                </td>
             </tr>
-        </volist>
+            </volist>
         </tbody>
     </table>
 </div>
@@ -85,24 +88,24 @@ $("tbody").find("tr:odd").css("backgroundColor","#eff6fa");
 showRemind('input[type=text], textarea','placeholder');
 
 //jQuery代码
-    $(function () {
-        //给查看按钮绑定事件
-        $('.show').on('click', function () {
-            //获取id
-            var id = $(this).attr('data_id');
-            var title = $(this).attr('data_title');
-            //iframe窗
-            layer.open({
-                type: 2,
-                title: title,
-                closeBtn: true, //显示关闭按钮
-                shade: [0],
-                area: ['800px', '90%'],
-                // time: 2000, //2秒后自动关闭
-                anim: 2,
-                content: '__CONTROLLER__/showContent/id/'+id, //iframe的url，no代表不显示滚动条
-            });
+$(function () {
+    //给查看按钮绑定事件
+    $('.show').on('click', function () {
+        //获取id
+        var id = $(this).attr('data_id');
+        var title = $(this).attr('data_title');
+        //iframe窗
+        layer.open({
+            type: 2,
+            title: title,
+            closeBtn: true, //显示关闭按钮
+            shade: [0],
+            area: ['800px', '90%'],
+            // time: 2000, //2秒后自动关闭
+            anim: 2,
+            content: '__CONTROLLER__/showContent/id/'+id, //iframe的url，no代表不显示滚动条
         });
     });
+});
 </script>
 </html>
