@@ -7,7 +7,7 @@
  */
 namespace Admin\Controller;
 use Think\Controller;
-class EmailController extends Controller{
+class EmailController extends CommonController{
     //发送邮件
     public function send(){
         if (IS_POST){
@@ -37,7 +37,7 @@ class EmailController extends Controller{
         /**
          * 从表 sp_user(t1),主表sp_email(t2)
          * sql="select t1.*,t2.truename as truename from sp_email as t1 left join sp_user as t2 on t1.to_id=t2.id where t1.from_id=当前用户id"
-         */
+            */
         $id=session('id');
         $data=M('Email')->field('t1.*,t2.truename as truename')
             ->alias('t1')
@@ -67,8 +67,12 @@ class EmailController extends Controller{
     public function showContent(){
         //接受id
         $id=I('get.id');
-        $data=M('Email')->find($id);
+        $data=M('Email')->where("id=$id and to_id=".session('id'))->find($id);
         //输出内容,还原被转义的内容
+        if ($data['isread']==0){
+            //修改状态
+            M('Email')->save(array('id'=>$id,'isread'=>1));
+        }
         $data=htmlspecialchars_decode($data['content']);
         echo $data;
     }
@@ -76,5 +80,32 @@ class EmailController extends Controller{
     //定义空操作方法
     public function _empty(){
          echo '没有'.ACTION_NAME.'方法';
+    }
+
+    //定义recBox方法
+    public function recBox(){
+        //连表查询
+        /**
+         * 主表 sp_email,从表 sp_user
+         * 关联条件 t1.from_id=t2.id
+         * sql="select t1.*,t2.truename as truename from sp_email as t1 left join sp_user as t2 on t1.from_id=t2.id where t1.to_id=当前id"
+         */
+        $id=session('id');
+        $data=M('Email')->field('t1.*,t2.truename as truename')
+            ->alias('t1')
+            ->join('left join sp_user as t2 on t1.from_id=t2.id')
+            ->where('t1.to_id='.$id)
+            ->select();
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    //输出当前用户未读邮件
+    public function getCount(){
+        if (IS_AJAX){
+            $model=M('Email');
+            $data=$model->where('isread=0 and to_id='.session('id'))->count();
+            echo $data;//数字
+        }
     }
 }

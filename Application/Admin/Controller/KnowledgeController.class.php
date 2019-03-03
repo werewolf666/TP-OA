@@ -6,8 +6,7 @@
  * Time: 0:58
  */
 namespace Admin\Controller;
-use Think\Controller;
-class KnowledgeController extends Controller{
+class KnowledgeController extends CommonController{
     //showlist
     public function showList(){
         $model=M('Knowledge');

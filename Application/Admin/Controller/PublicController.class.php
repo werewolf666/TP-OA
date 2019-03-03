@@ -1,6 +1,6 @@
 <?php
 /**
- * Public控制器
+ * Public控制器，一般
  */
 namespace Admin\Controller;
 use Think\Controller;

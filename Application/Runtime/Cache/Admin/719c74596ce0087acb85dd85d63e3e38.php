@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<div class="title"><h2>邮件管理</h2></div>
+<div class="title"><h2>发件箱</h2></div>
 <div class="table-operate ue-clear">
 	<a href="/index.php/Admin/Email/add" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
@@ -52,7 +52,7 @@
                 <td class="addtime"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
                 <td class="status"><?php if($vo["isread"] == 0): ?><span style="color: red;">未读</span><?php else: ?><span style="color:grey;">已读</span><?php endif; ?></td>
                 <td class="operate">
-                    <a href="javascript:;" class="show" data_id="<?php echo ($vo["id"]); ?>" data_title="<?php echo ($vo["title"]); ?>">查看 </a>|
+                    <a href="javascript:;" class="show" data_id="<?php echo ($vo["id"]); ?>" data_title="<?php echo ($vo["title"]); ?>" isread="<?php echo ($vo["isread"]); ?>">查看 </a>|
                 	<a href ='javascript:;'>删除</a> 
                 </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -92,6 +92,7 @@ $(function () {
         //获取id
         var id = $(this).attr('data_id');
         var title = $(this).attr('data_title');
+        var isread=$(this).attr('isread');
         //iframe窗
         layer.open({
             type: 2,
@@ -102,6 +103,13 @@ $(function () {
             // time: 2000, //2秒后自动关闭
             anim: 2,
             content: '/index.php/Admin/Email/showContent/id/'+id, //iframe的url，no代表不显示滚动条
+            end:function () {
+                //处理关闭弹窗的回调函数
+                if (isread==0){
+                    window.location.href=location.href;//跳转到本页面
+                    // window.location.href=location.reload();
+                }
+            }
         });
     });
 });

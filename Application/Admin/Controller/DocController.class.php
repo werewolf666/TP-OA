@@ -1,8 +1,6 @@
 <?php
 namespace Admin\Controller;
-use Admin\Model\DocModel;
-use \Think\Controller;
-class DocController extends Controller{
+class DocController extends CommonController{
     //showList
     public function showList(){
         $model=M('Doc');

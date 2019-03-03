@@ -6,8 +6,7 @@
  * Time: 21:22
  */
 namespace Admin\Controller;
-use Think\Controller;
-class UserController extends Controller{
+class UserController extends CommonController{
     //showList方法
     public function showList(){
         //实例化模型

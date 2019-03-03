@@ -19,4 +19,18 @@ return array(
 
     //动态加载文件
     'LOAD_EXT_FILE'         =>  'info',
+
+    //RBAC权限信息
+    //角色数组
+    'RBAC_ROLES'            => array(
+                                1   => '高层管理',
+                                2   => '中层领导',
+                                3   => '普通员工'
+                                ),
+    //权限数组
+    'RBAC_ROLE_AUTHS'       => array(
+        1   => '*/*',//拥有全部控制器和方法的权限
+        2   => array('index/*','email/*','doc/*','knowledge/*'),
+        3   => array('index/*','email/*','knowledge/*','doc/add')
+    )
 );

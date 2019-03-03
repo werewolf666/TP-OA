@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class DeptController extends Controller{
+class DeptController extends CommonController{
     //实例化DeptModel 普通的实例化 不推荐
     public function shilihua()
     {

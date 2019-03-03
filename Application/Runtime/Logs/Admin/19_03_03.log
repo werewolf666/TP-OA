@@ -67,3 +67,21 @@ ERR: 模板不存在:./Application/Admin/View/Cdcs/error.html
 [ 2019-03-03T03:54:57+08:00 ] 127.0.0.1 /index.php/Admin/cdcs
 ERR: 模板不存在:./Application/Admin/View/Cdcs/error.html
 
+[ 2019-03-03T23:33:04+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: Think\Model:jion方法不存在！
+
+[ 2019-03-03T23:33:27+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select t1.*,t2.truename as truename FROM sp_email t1 left join sp_user as t2 on ' at line 1
+
+[ 2019-03-03T23:36:05+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select t1.*,t2.truename as truename FROM sp_email t1 left join sp_user as t2 on ' at line 1
+
+[ 2019-03-03T23:38:01+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select t1.*,t2.truename as truename FROM sp_email t1 left join sp_user as t2 on ' at line 1
+
+[ 2019-03-03T23:38:59+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select t1.*,t2.truename as truename FROM sp_email t1 left join sp_user as t2 on ' at line 1
+
+[ 2019-03-03T23:39:00+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select t1.*,t2.truename as truename FROM sp_email t1 left join sp_user as t2 on ' at line 1
+

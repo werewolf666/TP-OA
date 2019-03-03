@@ -1,7 +1,6 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
-class IndexController extends Controller{
+class IndexController extends CommonController{
     //调用home.html
     public function home(){
         //展示模板
@@ -11,6 +10,7 @@ class IndexController extends Controller{
     //index方法
     public function index(){
         //展示模板
+        echo session('username');
         $this->display();
     }
 
