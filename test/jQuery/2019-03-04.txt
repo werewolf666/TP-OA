@@ -1,0 +1,29 @@
+1 jquery :对这个js的封装框架包
+
+2 js回顾
+    2.1 获取元素节点对象
+        getElementByid();
+        .....
+    2.2 时间操作
+        dom1级事件
+            <input onclick="代码/函数名()">
+            itnode.onclick=匿名/有名函数
+        dom2级事件
+            addEvenListener()
+            removeEvenListener()
+            attachEven()
+            detachEven()
+
+    2.3 事件对象
+        主流 itnode.onclick=function(){}
+        IE window.event
+
+    2.4 事件对象作用
+        阻止事件流产生
+            evt.stopPropagation()
+            event.canelBubble=true
+        阻止浏览器默认动作
+            ent.preventDefault();
+            event.returnValue=false
+以上缺点是复杂,兼容性不好,使用jQuery会更友好
+3cat
