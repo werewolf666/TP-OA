@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<img src="C:/PHPWAMP_IN3/wwwroot/demo/php_test/demo/class/use_mysqli/project/Public/Admin/images/login.png" />图片
 <div id="container">
   <div id="hd">
     <div class="hd-wrap ue-clear">

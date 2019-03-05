@@ -36,7 +36,7 @@
                     3   => array('email/*','knowledge/*')
                 )
 
-        3.1.2 实现原理 
+        3.1.2 实现原理
                 //由think PHP提供的构造方法_initialize(){}
                 public function _initialize(){
                     //编写判断用户是否登陆
