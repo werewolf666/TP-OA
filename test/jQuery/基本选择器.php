@@ -21,7 +21,7 @@
 
             $('li:first').css('color','gray');//并行选择器first
             $('li:last').css('color','green');//并行选择器last
-            $('li:eq(4)').css('color','green');//equal(),寻找节点下表
+            $('li:eq(4)').css('color','green');//equal(),按照节点下标寻找
             $('li:gt(4)').css('color','red');//节点下标大于4
             $('li:lt(4)').css('color','red');//节点下标小于4
 

@@ -11,6 +11,7 @@
         function f1() {
             console.log($('input:lt(4):checked'));//获取多选按钮值
             console.log($('input:gt(3):checked'));//获取单选按钮值
+            console.log($('option:selected'));//获取下拉数值
         }
     </script>
 
@@ -26,7 +27,16 @@
 <input type="radio" class="sex" name="sex" value="man" />男
 <input type="radio" class="sex" name="sex" value="women" />女
 <input type="radio" class="sex" name="sex" value="pri" />保密<br/>
-城市列表
+城市列表:
+<select>
+    <option value="0">请选择</option>
+    <option value="1">北京</option>
+    <option value="2">上海</option>
+    <option value="3">深圳</option>
+    <option value="4">太原</option>
+    <option value="5">沈阳</option>
+</select>
+<br/>
 <input type="button" value="点击" onclick="f1()"/>
 </body>
 </html>
