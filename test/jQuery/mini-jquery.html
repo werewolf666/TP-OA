@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        //匿名函数,
+        (function () {
+            //定义jq
+            var jq=function (sel) {
+                return new jq.fn.init(sel);
+            }
+            //定义jq.fn
+            jq.fn={
+                init:function (sel) {
+                    //各种选择器 #id,tag dom对象
+                    if(sel.nodeType){//dom对象
+                        this[0]=sel;
+                        this.length=1;
+                    }else if(sel.indexOf('#')===0){//#id,第一个为#号,indexOf() 从左开始找,有返回0,没有返回-1
+                        var flag = sel.substr(1);//去#号
+                        var elem = document.getElementById(flag);
+                        this.length=1;//dom数量
+                        this[0]=elem;//将elem复制给jQuery,组成数组组成部分
+                    }else{//tag标签
+                        var elems = document.getElementsByTagName(sel);//集合列表对象,需要和jQuery数组合并
+                        for(var i=0;i<elems.length;i++){
+                            this[i]=elems[i];
+                        }
+                        this.length=elems.length;
+                    }
+                },
+                //css方法
+                css:function (k,v) {
+                    //this 代表调用该方法的当前对象
+                    // 将jQuery对象变为dom对象在调用属性方法
+                    //给多个属性添加css
+                    for(var i=0;i<this.length;i++){
+                        this[i].style[k] = v;//设置属性
+                    }
+                },
+                //attr方法
+                attr:function (k,v) {
+                    for(var i=0;i<this.length;i++){
+                        this[i].setAttribute(k,v);
+                    }
+                },
+                //each方法,callback代表参数是函数参数
+                each:function (callback) {
+                    for(var i=0;i<this.length;i++){
+                        //this[i] 代表每个dom对象
+                        // callback 再次for循环内被执行多次,每次的this代表当前的dom对象
+                        callback.call(this[i]);
+                    }
+                }
+            };
+
+            //定义 init函数通过原型方式继承
+            //结果是可以通过继承获得jq.fn的所有方法
+            jq.fn.prototype=jq.fn;
+            //定义$符号
+            window.$=jq;
+        })();
+
+        function f1() {
+            //测试jQuery
+            //console.log($('#username'));
+            //console.log($(document.getElementById('useremail')));
+            //console.log($('input'));
+
+            //$('#username').css('color','red');
+            //$('li').attr('country','three');
+            $('li').each(function (m,n) {
+                $(this).css('color','red');
+            });
+        }
+    </script>
+</head>
+<body>
+<h2 class="orange"> mini-jQuery框架开发</h2><br/>
+<input type="text" id="username" value="jack"/> <br/>
+<input type="text" id="useremail" value="jack@.com"/> <br/>
+<input type="text" id="userqq" value="0001"/> <br/>
+<ul>
+    <li>刘</li>
+    <li>关</li>
+    <li>张</li>
+</ul>
+<input type="button" value="触发" onclick="f1()"/>
+</body>
+</html>
