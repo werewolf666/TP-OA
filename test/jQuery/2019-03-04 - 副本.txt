@@ -1,11 +1,11 @@
-﻿1 jquery :对这个js的封装框架包
+1 jquery :对这个js的封装框架包
 
 2 js回顾
     2.1 获取元素节点对象
         getElementByid();
         .....
     2.2 时间操作
-        （实现财务自由的基本要点）
+        dom1级事件
             <input onclick="代码/函数名()">
             itnode.onclick=匿名/有名函数
         dom2级事件
@@ -26,6 +26,4 @@
             ent.preventDefault();
             event.returnValue=false
 以上缺点是复杂,兼容性不好,使用jQuery会更友好
-
-3：前言：过程编写，这是第三个版本，主要用来测试版本控制器的。
-4：这是第四章，主要将如何色诱女朋友
+3cat

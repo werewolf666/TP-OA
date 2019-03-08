@@ -13,7 +13,7 @@
     会话信息 : SESSION_ID=uf2st3a9er0b31i3hl20vf4j05
 
 2:两种模式(开发模式/生产模式),默认flase 生产模式
-开发模式配置项:APP_DEBUG,一般在入口文件中
+开发模式配置项:APP_DEBUG,一般在入口文件中。
 
 3:sql调试
 $model->getLastSql():获取最后一条SQL语句
